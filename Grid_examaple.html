@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .grid-content{
+            background-color: rgb(243, 217, 183);
+        }
+        .grid-content .container{
+            margin: 0px 80px;
+        }
+        .grid-content .grid-padding{
+            padding: 50px 0px;
+        }
+        .grid-content .grid-box{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            justify-items: center;
+
+        }
+        .grid-content .grid-box .sub-grid-box{
+            
+        }
+        .grid-content .grid-box .sub-grid-box h1{
+            font-size: 35px;
+            color: orangered;
+            padding-bottom: 10px;
+
+        }
+        .grid-content .grid-box .sub-grid-box p{
+            font-size: 20px;
+            color: gray;
+
+        }
+
+    </style>
+</head>
+<body>
+    <section class="grid-content">
+        <div class="container">
+            <div class="grid-padding">
+                <div class="grid-box">
+                    <div class="sub-grid-box">
+                        <h1>1750</h1>
+                        <p>Projects</p>
+                    </div>
+                    <div class="sub-grid-box">
+                        <h1>750</h1>
+                        <p>Our Branches</p>
+                    </div>
+                    <div class="sub-grid-box">
+                        <h1>525</h1>
+                        <p>Happy Customers</p>
+                    </div>
+                    <div class="sub-grid-box">
+                        <h1>628</h1>
+                        <p>Awards</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+</body>
+</html>
