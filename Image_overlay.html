@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            height: 550px;
+            width: 480px;
+            
+        }
+        .main{
+            height: 550px;
+            width: 480px;
+            position: relative;
+        }
+        .main .text{
+            position: absolute;
+            /* overflow: hidden; */
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            height: 0;
+            width: 100%;
+            color: darkmagenta;
+            display: grid;
+            place-content: center;
+            background-color: rgba(0, 0, 0, 0.226);
+            transition: 1s all ease;
+        }
+        .main:hover .text{
+            /* height: 25%; */
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <img src="download.jpg" alt="">
+        <div class="text">
+            <h1>Hello Rahul</h1>
+        </div>
+    </div>
+    
+</body>
+</html>
