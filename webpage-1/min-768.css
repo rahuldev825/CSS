@@ -1,0 +1,118 @@
+@media (min-width:768px) {
+    .container {
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    header .navigation .navbar {
+        display: none;
+    }
+
+    header .navigation .right {
+        font-size: 25px;
+        display: none;
+
+    }
+
+    header .navigation .hidden-bar .bar {
+        display: block;
+    }
+
+    header .navigation .logo span {
+        font-size: 25px;
+    }
+
+    header .navigation .logo .h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    /*======================== homepage =========================== */
+
+    .backgraound img {
+        height: auto;
+    }
+
+    .backgraound .text {
+        top: 120px;
+    }
+
+    .backgraound .text h1 {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+
+    .backgraound .text p {
+        width: 80%;
+    }
+
+    .backgraound .dots {
+        padding-top: 30px;
+    }
+
+    /* --------------------------------------who are we------------------------------ */
+    .coffes-pd {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .coffes .coffes-box .coffes-right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .coffes .coffes-box .coffes-left {
+        padding-top: 20px;
+    }
+
+    .our-page .our-page-grid-box {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    /* ============================ our services ===================== */
+
+    .services .services-box {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .services .services-box .services-right {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    /* =========================== gallery ============================= */
+
+    .gallary .gallary-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+    }
+
+    /* ============================= coustemer ============================== */
+    .customer .customer-box h1 {
+        font-size: 30px;
+    }
+
+    /* =========================== post box ===================== */
+    .post .post-flex-box .boxx {
+        display: none;
+    }
+
+    .post .info {
+        width: 80%;
+    }
+
+    /* ========================= footer ========================= */
+    footer .footer-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+}

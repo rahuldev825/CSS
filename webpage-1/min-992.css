@@ -1,0 +1,143 @@
+@media (min-width:992px) {
+    .container {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    header .navigation .navbar {
+        display: block;
+    }
+
+    header .navigation .right {
+        font-size: 20px;
+        display: block;
+
+    }
+
+    header .navigation .hidden-bar .bar {
+        display: none;
+    }
+
+    header .navigation .logo span {
+        font-size: 25px;
+    }
+
+    header .navigation .logo .h1 {
+        font-size: 25px;
+        font-weight: 800;
+    }
+
+    header .navigation .right button {
+        height: 50px;
+        width: 120px;
+        font-size: 15px;
+    }
+
+    /*======================== homepage =========================== */
+
+    .backgraound img {
+        height: auto;
+    }
+
+    .backgraound .text {
+        top: 200px;
+    }
+
+    .backgraound .text h1 {
+        font-size: 40px;
+        padding-bottom: 25px;
+    }
+
+    .backgraound .text p {
+        width: 60%;
+    }
+
+    .backgraound .dots {
+        padding-top: 50px;
+    }
+
+    /* ----------------------------who are we---------------------------------------------- */
+    .coffes-pd {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .coffes .coffes-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .coffes .coffes-box .coffes-left {
+        padding-top: 0px;
+        flex: 0.5;
+    }
+
+    .coffes .coffes-box .coffes-left p {
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: 0.5px;
+    }
+
+    .coffes .coffes-box .coffes-right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .coffes .coffes-box .coffes-left h1 {
+        font-size: 30px;
+    }
+
+    .coffes .coffes-box .coffes-right img {
+        height: auto;
+        width: 100%;
+    }
+
+    /* ===================== our page ===================== */
+    .our-page .our-page-grid-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+
+    /* ============================ our services ===================== */
+
+    .services .services-box {
+        display: flex;
+        flex-direction: row;
+        gap: 40px;
+    }
+
+    .services .services-box .services-right {
+        display: grid;
+        gap: 20px;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* =========================== gallery ============================= */
+
+    .gallary .gallary-box {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        gap: 15px;
+    }
+
+    /* ============================= coustemer ============================== */
+    .customer .customer-box h1 {
+        font-size: 35px;
+    }
+
+    /* =========================== post box ===================== */
+    .post .post-flex-box .boxx {
+        display: block;
+    }
+
+    .post .info {
+        width: 500px
+    }
+
+    footer .footer-grid {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+    }
+}

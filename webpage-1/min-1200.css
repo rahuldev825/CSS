@@ -1,0 +1,107 @@
+@media (min-width:1200px) {
+    .container {
+        margin-left: 90px;
+        margin-right: 90px;
+    }
+
+    header .navigation .navbar {
+        display: block;
+    }
+
+    header .navigation .right {
+        font-size: 17px;
+        display: block;
+
+    }
+
+    header .navigation .hidden-bar .bar {
+        display: none;
+    }
+
+    header .navigation .logo span {
+        font-size: 30px;
+    }
+
+    header .navigation .logo .h1 {
+        font-size: 30px;
+        font-weight: 800;
+    }
+
+    header .navigation .right button {
+        height: 50px;
+        width: 150px;
+        font-size: 18px;
+    }
+
+    /*======================== homepage =========================== */
+
+    .backgraound img {
+        height: auto;
+    }
+
+    .backgraound .text {
+        top: 250px;
+    }
+
+    .backgraound .text h1 {
+        font-size: 50px;
+        padding-bottom: 30px;
+    }
+
+    .backgraound .text p {
+        width: 40%;
+    }
+
+    .backgraound .dots {
+        padding-top: 60px;
+    }
+
+    /* ----------------------------who are we---------------------------------------------- */
+    .coffes .coffes-box {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .coffes .coffes-box .coffes-left {
+        padding-top: 30px;
+        flex: 1;
+    }
+
+    .coffes .coffes-box .coffes-left p {
+        font-size: 17px;
+        line-height: 25px;
+        letter-spacing: 1px;
+    }
+
+    .coffes .coffes-box .coffes-right {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .coffes .coffes-box .coffes-left h1 {
+        font-size: 40px;
+    }
+
+    .coffes .coffes-box .coffes-right img {
+        height: auto;
+        width: 100%;
+    }
+
+    /* ===================== our page ===================== */
+    .our-page .our-page-grid-box {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+    }
+
+    /* ============================ our services ===================== */
+    /*  inherited by 992 */
+
+    /* =========================== gallery ============================= */
+    /* inherited by 992 */
+    /* ============================= coustemer ============================== */
+    /*  inherited by 992 */
+
+    /* ========================= post box ======================= */
+    /* inherited by 992 */
+}
