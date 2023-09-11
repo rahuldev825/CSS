@@ -1,0 +1,114 @@
+@media (min-width:576px) {
+    .container-large {
+        margin-left: 35px;
+        margin-right: 35px;
+    }
+
+    .mainSection .contactus {
+        display: none;
+    }
+
+    /* ======== navbar===== */
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar .navbar-nav .nav {
+        display: none;
+    }
+
+    .homepage-banner .banner2-text {
+        font-size: 40px;
+    }
+
+    .mainSection .FoodGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .navbar .navbar-nav .menubtn {
+        display: flex;
+    }
+
+    .aboutSec .aboutFlex {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .aboutSec .aboutFlex .about-image .img {
+        height: 450px;
+        width: 230px;
+    }
+
+    .aboutSec .aboutFlex .about-image {
+        gap: 20px;
+    }
+
+    .aboutSec .aboutFlex .about-image .img2 {
+        transform: translateY(35px);
+    }
+
+    .aboutSec .aboutStaff {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .aboutSec .aboutStaff .counting {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .serviceSec .serviceInfo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .OurMenu .menugrid1 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .OurMenu .image {
+        margin-bottom: 10px;
+    }
+
+    .OurMenu .menugrid2 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .OurMenu .menugrid3 {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .masterChef .chefGrid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .bookform .bookfield {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .bookform .btn {
+        grid-row: unset;
+        grid-column: unset;
+        justify-self: unset;
+    }
+
+    .bookingForm .bookform {
+        padding: 90px 10px;
+        width: 100%;
+    }
+
+    .bookform .headings .backHeading {
+        font-size: 50px;
+        top: -30px;
+    }
+
+    .bookform .headings .frontheading {
+        font-size: 30px;
+    }
+
+    footer .footerGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

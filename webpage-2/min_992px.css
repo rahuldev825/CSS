@@ -1,0 +1,88 @@
+@media (min-width:992px) {
+    .container-large {
+        margin-left: 65px;
+        margin-right: 65px;
+    }
+
+    .mainSection .contactus {
+        display: block;
+    }
+
+    /* ======== navbar===== */
+    .navbar {
+        background-color: transparent;
+    }
+
+    .navbar .navbar-nav .nav {
+        display: block;
+    }
+
+    .navbar .navbar-nav .menubtn {
+        display: none;
+    }
+
+    .homepage-banner .banner2-text {
+        font-size: 60px;
+    }
+
+    .mainSection .FoodGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .mainSection .FoodGrid .lastmenu {
+        grid-row: unset;
+        grid-column: unset;
+    }
+
+    /*about section inherit from 768px */
+    .aboutSec .aboutStaff {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    .OurMenu .menugrid1 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .OurMenu .image {
+        margin-bottom: 0;
+    }
+
+    .OurMenu .menugrid2 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .OurMenu .menugrid3 {
+        flex-direction: row;
+        flex-wrap: nowrap;
+    }
+
+    .masterChef .chefGrid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .bookingForm .bookform {
+        padding: 90px 40px;
+        width: 650px;
+    }
+
+    .bookform .headings .backHeading {
+        font-size: 100px;
+        top: -71px;
+    }
+
+    .bookform .headings .frontheading {
+        font-size: 50px;
+    }
+
+    .bookingForm {
+        padding: 90px 40px;
+    }
+
+    footer .footerGrid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px;
+    }
+}

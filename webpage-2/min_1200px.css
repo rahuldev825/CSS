@@ -1,0 +1,16 @@
+@media (min-width:1200px) {
+    .container-large {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .aboutSec .aboutFlex {
+        flex-direction: row;
+        gap: 0;
+    }
+
+    footer .footerGrid {
+        grid-template-columns: repeat(4, 1fr);
+        gap: 20px;
+    }
+}

@@ -1,0 +1,127 @@
+@media (max-width:576px) {
+    .container-large {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .mainSection .contactus {
+        display: none;
+    }
+
+    /* ======== navbar===== */
+    .navbar {
+        background-color: black;
+    }
+
+    .navbar .navbar-nav .nav {
+        display: none;
+    }
+
+    .navbar .navbar-nav .menubtn {
+        display: flex;
+    }
+
+    .homepage-banner .banner2-text {
+        font-size: 40px;
+    }
+
+    .mainSection .foodmenu-lg {
+        display: none;
+    }
+
+    .foodmenu-sm {
+        display: block;
+    }
+
+    .homepage-banner .banner-text {
+        font-size: 70px;
+    }
+
+    .aboutSec .aboutFlex {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .aboutSec .aboutFlex .about-image .img {
+        height: 450px;
+        width: 150px;
+    }
+
+    .aboutSec .aboutFlex .about-image {
+        gap: 0
+    }
+
+    .aboutSec .aboutFlex .about-image .img2 {
+        transform: translateY(0px);
+    }
+
+    .aboutSec .aboutStaff {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .aboutSec .aboutStaff .counting {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .aboutSec .aboutFlex .about-text .number a {
+        font-size: 30px;
+    }
+
+    .serviceSec .serviceInfo {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .OurMenu .menugrid1 {
+        flex-direction: column;
+    }
+
+    .OurMenu .menugrid2 {
+        flex-direction: column-reverse;
+    }
+
+    .OurMenu .menugrid3 {
+        flex-direction: column;
+    }
+
+    .OurMenu .backHeading {
+        font-size: 80px;
+    }
+
+    .masterChef .chefGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .bookingForm {
+        padding: 90px 10px;
+    }
+
+    .bookform .bookfield {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+
+    .bookform .btn {
+        grid-row: unset;
+        grid-column: unset;
+        justify-self: unset;
+    }
+
+    .bookingForm .bookform {
+        padding: 90px 10px;
+        width: 100%;
+    }
+
+    .bookform .headings .backHeading {
+        font-size: 50px;
+        top: -90px;
+    }
+
+    .bookform .headings .frontheading {
+        font-size: 30px;
+    }
+
+    footer .footerGrid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

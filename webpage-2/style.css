@@ -1,0 +1,694 @@
+/* ============ common css ============= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+/* margin */
+.container-large {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.container-sm {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.pad-10 {
+    padding: 10px 0px;
+}
+
+/* ======== for section heading ===== */
+.headings {
+    padding-bottom: 20px;
+    position: relative;
+    z-index: 1;
+}
+
+.headings .backHeading {
+    font-size: 100px;
+    font-family: "Great Vibes", cursive;
+    color: #e98c40;
+    font-weight: 200;
+    /* transform: translateY(50px); */
+    position: absolute;
+    top: -71px;
+    left: 0;
+    z-index: -1;
+}
+
+.headings .frontheading {
+    font-size: 50px;
+    line-height: 41px;
+}
+
+.alignment {
+    text-align: center;
+}
+
+.screenw {
+    width: 100%;
+}
+
+/* =============== homepage ============ */
+.mainSection {
+    background: url(images/bg_1.webp) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.mainSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    background-color: black;
+    opacity: 0.6;
+    z-index: -1;
+}
+
+.mainSection .contactus {
+    background-color: rgba(255, 255, 255, 0.211);
+    color: white;
+}
+
+.mainSection .contactinfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar {
+    background-color: transparent;
+}
+
+.navbar::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.211);
+    display: block;
+}
+
+.navbar .navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.navbar .navbar-nav .logo {
+    flex: 1;
+    color: white;
+}
+
+.navbar .navbar-nav .nav {
+    flex: 3;
+}
+
+.navbar .navbar-nav ul {
+    display: flex;
+    justify-content: end;
+    gap: 20px;
+    align-items: center;
+}
+
+.navbar .navbar-nav ul li {
+    padding: 5px;
+}
+
+.navbar .navbar-nav ul li a {
+    color: white;
+}
+
+.navbar .navbar-nav ul button {
+    height: 45px;
+    width: 140px;
+    font-size: 16px;
+    background-color: #e98c40;
+    color: white;
+    border-radius: 5px;
+    border: 2px solid transparent;
+}
+
+.navbar .navbar-nav .menubtn {
+    flex: 0.5;
+    display: none;
+    justify-content: end;
+}
+
+.navbar .navbar-nav .menubtn button {
+    border: none;
+    height: 45px;
+    color: white;
+    font-size: 17px;
+    background-color: transparent;
+}
+
+.homepage-banner .home-text {
+    text-align: center;
+    padding: 100px 0px 20px;
+}
+
+.homepage-banner .banner-text {
+    color: #e98c40;
+    font-family: "Great Vibes", cursive;
+    font-size: 100px;
+}
+
+.homepage-banner .banner2-text {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.homepage-banner::after {
+    content: "";
+    height: 1px;
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.211);
+    display: block;
+}
+
+.mainSection .FoodGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 30px 0px;
+}
+
+.mainSection .FoodGrid .foodItems {
+    text-align: center;
+    padding: 10px;
+}
+
+.mainSection .FoodGrid img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.mainSection .FoodGrid .image {
+    margin: auto;
+}
+
+.mainSection .FoodGrid h3 {
+    color: white;
+}
+
+.mainSection .FoodGrid p {
+    color: gray;
+}
+
+/* ======================= */
+.foodmenu-sm {
+    display: none;
+}
+
+.foodmenu-sm .FoodGrid {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 30px;
+    justify-items: center;
+    padding: 30px 0px;
+}
+
+.foodmenu-sm .FoodGrid .foodItems {
+    text-align: center;
+    padding: 10px;
+}
+
+.foodmenu-sm .FoodGrid img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+.foodmenu-sm .FoodGrid .image {
+    margin: auto;
+}
+
+.foodmenu-sm .FoodGrid h3 {
+    color: white;
+}
+
+.foodmenu-sm .FoodGrid p {
+    color: gray;
+}
+
+/* ========================== about ================ */
+.aboutSec .about-p {
+    padding: 100px 0px;
+}
+
+.aboutSec .aboutFlex {
+    display: flex;
+    align-items: center;
+}
+
+.aboutSec .aboutFlex .about-image {
+    flex: 1.5;
+    display: flex;
+    gap: 20px
+}
+
+.aboutSec .aboutFlex .about-image .img {
+    height: 450px;
+    width: 300px;
+}
+
+.aboutSec .aboutFlex .about-image .img1 {
+    background: url(images/about.webp) no-repeat center;
+    background-size: cover;
+}
+
+.aboutSec .aboutFlex .about-image .img2 {
+    background: url(images/about1.webp) no-repeat center;
+    background-size: cover;
+    transform: translateY(35px);
+}
+
+.aboutSec .aboutFlex .about-text {
+    flex: 1
+}
+
+.aboutSec .aboutFlex .about-text p {
+    line-height: 30px;
+    color: gray;
+    font-size: 17px;
+    padding-bottom: 20px;
+}
+
+.aboutSec .aboutFlex .about-text .number {
+    padding-top: 30px;
+}
+
+.aboutSec .aboutFlex .about-text .number a {
+    font-size: 40px;
+    color: #e98c40;
+    font-weight: bold;
+}
+
+.aboutSec .aboutStaff {
+    display: flex;
+}
+
+.aboutSec .aboutStaff .counting {
+    flex: 2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+.aboutSec .aboutStaff .counting h1 {
+    font-size: 40px;
+    color: #e98c40;
+}
+
+.aboutSec .aboutStaff .counting p {
+    text-transform: uppercase;
+}
+
+.aboutSec .aboutStaff .infor-para {
+    flex: 0.7;
+}
+
+.aboutSec .aboutStaff .infor-para p {
+    line-height: 30px;
+}
+
+/* ======================== */
+.serviceSec .service-p {
+    padding-bottom: 70px
+}
+
+.serviceSec .serviceInfo {
+    padding: 50px 0px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    justify-items: center;
+}
+
+.serviceSec .serviceInfo img {
+    height: 80px;
+    width: 80px;
+    text-align: center;
+}
+
+.serviceSec .serviceInfo .image {
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+}
+
+.serviceSec .serviceInfo .serviceText {
+    text-align: center;
+    padding: 20px;
+}
+
+.serviceSec .serviceInfo .serviceText h1 {
+    padding-bottom: 15px;
+}
+
+.serviceSec .serviceInfo .serviceText p {
+    color: gray;
+}
+
+.OurMenu .menu-p {
+    padding: 120px 0px;
+}
+
+.OurMenu .menugrid1 {
+    display: flex;
+    justify-content: center;
+}
+
+.OurMenu .menugrid2 {
+    display: flex;
+    justify-content: center;
+}
+
+.OurMenu .menugrid3 {
+    display: flex;
+    justify-content: center;
+}
+
+.OurMenu .text {
+    padding: 20px;
+    align-self: center;
+}
+
+.OurMenu .text .price {
+    display: flex;
+    justify-content: space-between;
+}
+
+.OurMenu .text .price p {
+    color: #e98c40;
+    font-size: 20px;
+}
+
+.OurMenu .text p {
+    padding: 10px 0px;
+    font-size: 18px;
+}
+
+.OurMenu .text button {
+    height: 35px;
+    width: 100px;
+    background-color: #e98c40;
+    color: white;
+    border: 2px solid transparent;
+}
+
+.OurMenu .text button:hover {
+    background-color: transparent;
+    color: #e98c40;
+    border: 2px solid #e98c40;
+    cursor: pointer;
+}
+
+.OurMenu .image {
+    height: 304px;
+    width: 317px;
+}
+
+.OurMenu .menugrid1 .image1 {
+    background: url(images/breakfast-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+.OurMenu .menugrid1 .image2 {
+    background: url(images/breakfast-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.OurMenu .menugrid2 .image3 {
+    background: url(images/breakfast-3.webp) no-repeat center;
+    background-size: cover;
+}
+
+.OurMenu .menugrid2 .image4 {
+    background: url(images/breakfast-4.webp) no-repeat center;
+    background-size: cover;
+}
+
+.OurMenu .menugrid3 .image5 {
+    background: url(images/break-5.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.OurMenu .menugrid3 .image6 {
+    background: url(images/break-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+.masterChef .chef-p {
+    padding: 120px 0px;
+}
+
+.masterChef .chefGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 40px;
+    padding: 30px 0px;
+}
+
+.masterChef .chefGrid img {
+    height: auto;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.masterChef .chefGrid .social {
+    display: flex;
+    gap: 10px;
+    padding: 10px 0px;
+}
+
+.masterChef .chefGrid .social a {
+    color: #e98c40;
+}
+
+.masterChef .chefGrid .social div:nth-child(1) {
+    animation: fadeInUp 1s ease;
+}
+
+.masterChef .chefGrid .social div:nth-child(2) {
+    animation: fadeInUp 1s ease;
+    animation-delay: 1s;
+}
+
+.masterChef .chefGrid .social div:nth-child(3) {
+    animation: fadeInUp 1s ease;
+    animation-delay: 1s;
+}
+
+.masterChef .chefGrid .social div:nth-child(4) {
+    animation: fadeInUp 1s ease;
+    animation-delay: 1s;
+}
+
+.bookingForm {
+    background: url(images/bg_3.webp) no-repeat center fixed;
+    padding: 90px 50px;
+}
+
+.bookingForm .bookform {
+    background-color: white;
+    padding: 90px 40px;
+    width: 650px;
+}
+
+.bookform .bookfield {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.bookform input[type="text"],
+[type="date"],
+[type="time"] {
+    height: 35px;
+    width: 100%;
+}
+
+.bookform select {
+    height: 37px;
+    width: 100%;
+}
+
+.bookform .btn {
+    grid-row: 4;
+    grid-column: 1 / span 2;
+    justify-self: center;
+}
+
+.bookform button {
+    height: 45px;
+    padding: 0px 20px;
+    background-color: #e98c40;
+    color: white;
+    border: 2px solid #e98c40;
+    transition: 0.5s ease;
+}
+
+.bookform button:hover {
+    background-color: white;
+    color: #e98c40;
+}
+
+footer {
+    background-color: #171717;
+}
+
+footer .footer-p {
+    padding: 70px 0px;
+}
+
+footer .footerGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+footer .footerGrid h3 {
+    color: white;
+    padding-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+footer .footerGrid p {
+    color: white;
+    padding-bottom: 20px;
+}
+
+footer .footerGrid .socialIcon {
+    display: flex;
+    gap: 20px;
+}
+
+footer .footerGrid .socialIcon .icon {
+    height: 35px;
+    width: 35px;
+    background-color: #323232;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
+
+footer .footerGrid .socialIcon .icon a {
+    color: white;
+}
+
+footer .footerGrid .timings {
+    padding-right: 30px;
+}
+
+footer .footerGrid .weekTime {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .footerGrid .weekTime p {
+    padding: 0;
+}
+
+footer .footerGrid .insta-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+footer .footerGrid .insta-img .img {
+    height: 120px;
+}
+
+footer .footerGrid .insta-img .img1 {
+    background: url(images/insta-1.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer .footerGrid .insta-img .img2 {
+    background: url(images/insta-2.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer .footerGrid .insta-img .img3 {
+    background: url(images/insta-3.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer .footerGrid .insta-img .img4 {
+    background: url(images/insta-4.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer .footerGrid .insta-img .img5 {
+    background: url(images/insta-5.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer .footerGrid .insta-img .img6 {
+    background: url(images/insta-6.webp) no-repeat center;
+    background-size: cover;
+}
+
+footer input[type="text"] {
+    height: 55px;
+    width: 100%;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    background-color: #323232;
+    padding: 0px 10px;
+    font-size: 17px;
+    color: white;
+}
+
+footer input[type="text"]:focus-within {
+    outline: none;
+}
+
+footer input[type="text"]::placeholder {
+    color: #cac7c7;
+    text-align: center;
+}
+
+footer button {
+    height: 55px;
+    width: 100%;
+    background-color: #e98c40;
+    color: white;
+    border: 2px solid #e98c40;
+    border-radius: 5px;
+}
+
+footer .fdinput {
+    padding: 5px;
+}
+
+footer .copy p {
+    color: white;
+    text-align: center;
+    padding: 40px 0px;
+}
+footer .copy p span{
+    color: red;
+    transform: rotate(180deg);
+}
